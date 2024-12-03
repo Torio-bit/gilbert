@@ -7,7 +7,7 @@ import (
 
 func main() {
 	var input string
-	fmt.Println("Введите выражение (например: \"hello\" + \"world\", \"hello\" - \"lo\", \"hello\" * 3, \"hello\" / 2):")
+	fmt.Println("Введите выражение (например: hello+world, hello-lo,hello*3,hello/2):")
 	_, err := fmt.Scanln(&input)
 	if err != nil {
 		panic("Ошибка при вводе. Убедитесь, что строка введена правильно.")
